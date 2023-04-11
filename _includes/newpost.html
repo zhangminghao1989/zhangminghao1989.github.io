@@ -33,12 +33,12 @@
                 'date: ' + formatDate(new Date(),"yyyy-MM-dd hh:mm:ss "),
                 'title: ' + title,
                 'comments: true',
-                'categories: diary',
+                'categories: ',
                 'tags: ',
                 '---',
                 '* content',
                 '{:toc}',
-                '## ' + title,
+                '# ' + title,
                 '输入正文'
                 ].join('\n');
             urlNewPage += "&value=" + encodeURIComponent(defaultText);
