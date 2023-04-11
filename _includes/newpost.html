@@ -1,7 +1,7 @@
 <script type="text/javascript">
     function OnClickNewPost()
     {
-        var title = prompt("Please enter title of your post");
+        var title = prompt("请输入新文章标题：");
         if (title!=null){
             title = title.replace(" ", "-");
             var currentdate = new Date();
@@ -11,11 +11,14 @@
             var defaultText =  [
                 '---',
                 'layout: post',
+                'date: ' + currentdate.getFullYear() + "-" + (currentdate.getMonth()+1) + "-" + currentdate.getDate(),
+                'title: ' + title,
                 'comments: true',
                 'categories: diary',
+                'tags: ',
                 '---',
-                '## Title',
-                'text'
+                '## ' + title,
+                '输入正文'
                 ].join('\n');
             urlNewPage += "&value=" + encodeURIComponent(defaultText);
             window.open(urlNewPage);
