@@ -27,7 +27,8 @@ disqus_url: "https://blog.zhangminghao.com"
 
 # Build settings
 markdown: kramdown
-
+kramdown:
+  input: GFM
 # highlight
 # highlighter: pygments
 # highlighter: rouge
@@ -36,3 +37,12 @@ markdown: kramdown
 timezone: Asia/Shanghai
 plugins:
   - jekyll-redirect-from
+  
+defaults:
+  -
+    scope:
+      path: "" # 一个空的字符串代表项目中所有的文件
+      type: "posts" # 以前的 `post`， 在 Jekyll 2.2 里。
+    values:
+      layout: "default"
+      comments: true
