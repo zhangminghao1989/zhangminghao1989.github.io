@@ -2,14 +2,11 @@
 layout: post
 date: 2012-05-17 +0800
 title: "[转]用-vga_switcheroo 在 Linux 下(开启 KMS)彻底关闭某一可切换显卡的简单教程"
-comments: true
 categories: Linux
 tags: Linux,AMD,Intel,显卡
 redirect_from:
   - /post/11.html
 ---
-* content
-{:toc}
 
 >原文：[http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/](http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/)
 
