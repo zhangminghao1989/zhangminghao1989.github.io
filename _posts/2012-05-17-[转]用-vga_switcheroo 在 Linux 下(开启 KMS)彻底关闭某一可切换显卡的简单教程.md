@@ -7,6 +7,7 @@ tags: Linux,AMD,Intel,显卡
 redirect_from:
   - /post/11.html
 ---
+* content
 {:toc}
 
 >原文：[http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/](http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/)
@@ -49,7 +50,7 @@ su
 
 打开所有的显卡：
 
-```Bash
+```bash
 echo ON > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -57,7 +58,7 @@ echo ON > /sys/kernel/debug/vgaswitcheroo/switch
 
 切换到集成显卡：
 
-```Bash
+```bash
 echo IGD > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -65,7 +66,7 @@ echo IGD > /sys/kernel/debug/vgaswitcheroo/switch
 
 关闭未使用的显卡：
 
-```Bash
+```bash
 echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
