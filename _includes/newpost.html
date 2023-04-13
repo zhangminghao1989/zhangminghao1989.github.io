@@ -19,6 +19,8 @@
                 'layout: post',
                 'date: ' + currentdate.join(' '),
                 'title: "' + title.replace(/\s+$/, "").replace(/\s+/g, " ") +'"',
+				'redirect_to:',
+				'  - /' + currentdate[0].replace(/-/g, "/") +'/' + Date.now().toString().substring(0,10),
                 'categories: ',
                 'tags: ',
                 '---',
