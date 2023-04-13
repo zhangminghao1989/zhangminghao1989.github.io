@@ -6,8 +6,7 @@ categories: Linux
 tags: Linux,AMD,Intel,显卡
 redirect_from:
   - /post/11.html
-
-url: /2012/05/17/1337187599
+slug: 1337187599
 ---
 * content
 {:toc}
