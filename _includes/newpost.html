@@ -13,12 +13,12 @@
         if (title!=null){
             //title = title.replace(/\s+/, "-");
             var currentdate = formatDate(new Date());
-            var urlNewPage = "{{ site.newsourceroot }}?filename=_posts/" + currentdate[0] + "-" + title.replace(/\s+/g, "-") + ".md";
+            var urlNewPage = "{{ site.newsourceroot }}?filename=_posts/" + currentdate[0] + "-" + title.replace(/\s+$/, "-").replace(/\s+/g, "-") + ".md";
             var defaultText =  [
                 '---',
                 'layout: post',
                 'date: ' + currentdate.join(' '),
-                'title: "' + title.replace(/\s+/g, " ") +'"',
+                'title: "' + title.replace(/\s+$/, "").replace(/\s+/g, " ") +'"',
                 'categories: ',
                 'tags: ',
                 '---',
