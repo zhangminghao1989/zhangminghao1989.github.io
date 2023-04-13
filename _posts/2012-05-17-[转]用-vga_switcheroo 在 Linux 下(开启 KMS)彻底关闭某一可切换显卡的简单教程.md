@@ -7,6 +7,8 @@ tags: Linux,AMD,Intel,显卡
 redirect_from:
   - /post/11.html
 ---
+* content
+{:toc}
 
 >原文：[http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/](http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/)
 
