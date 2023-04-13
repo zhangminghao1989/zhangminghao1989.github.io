@@ -5,6 +5,8 @@ title: "[转]开启Mac SSD TRIM的终极方案"
 slug: "1356616863"
 categories: Mac
 tags: Mac
+redirect_from:
+  - /post/16.html
 ---
 * content
 {:toc}
