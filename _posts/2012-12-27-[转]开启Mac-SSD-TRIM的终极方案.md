@@ -2,7 +2,7 @@
 layout: post
 date: 2012-12-27 22:04:39 +0800
 title: "[转]开启Mac SSD TRIM的终极方案"
-slug: 1356616863
+slug: "1356616863"
 categories: Mac
 tags: Mac
 ---
