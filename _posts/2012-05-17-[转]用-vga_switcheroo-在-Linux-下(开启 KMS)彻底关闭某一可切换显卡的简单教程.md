@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2012-05-17 +0800
-title: "[转]用-vga_switcheroo 在 Linux 下(开启 KMS)彻底关闭某一可切换显卡的简单教程"
+title: "[转]用 vga_switcheroo 在 Linux 下(开启 KMS)彻底关闭某一可切换显卡的简单教程"
 categories: Linux
 tags: Linux,AMD,Intel,显卡
 redirect_from:
@@ -11,10 +11,8 @@ slug: "1337187599"
 * content
 {:toc}
 
->原文：[http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/](http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/)
-
 私在早先时记载过自己一直为一个问题所扰，就是私配备双显卡的Ideapad Y460在BIOS中仅支持“可切换”（switchable）和“独立”（原文为discrete graphic）两种模式。而当使用可切换模式进入Linux后，虽然只有集成显卡在使用，但两个显卡都会同时耗电，导致温度很高。虽然用独立显卡+催化 剂（Ati的商业驱动）可以获得不错的效果，但会有诸多麻烦事情，更何况这样一来集显的节能优势就消失了。
-
+<!--more-->
 我曾在谷歌上粗略查找过很多彻底关闭独立显卡的方案，然而就目前我看到的中文解答来说，除了那个ubuntu关闭独显的脚本还靠谱外，基本都是不靠 谱的答案。直到我最近从Arch的Wiki辗转到了ubuntu documentation才找到一个使用内核自带的vga_switcheroo关闭显卡的方案。在此记述一下。
 
 声明：本文只是记述了最主要的内容，详细内容可以从[这个](https://help.ubuntu.com/community/HybridGraphics)页面中找到。
@@ -80,3 +78,5 @@ echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
 //
 
 后记：3月14日帝都（室温约20度），开启acpi节能的情况下，我的Ideapad Y460使用集显，打字、浏览网页等操作，CPU温度不到37度，电池续航4小时以上，真是太舒爽了……
+
+>原文：[http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/](http://ukyoi.wordpress.com/2012/03/14/用vga_switcheroo在linux下（开启kms）彻底关闭某一可切换显卡的/)

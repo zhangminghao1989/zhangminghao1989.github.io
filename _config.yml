@@ -33,7 +33,7 @@ kramdown:
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
-
+excerpt_separator: <!--more-->
 timezone: Asia/Shanghai
 plugins:
   - jekyll-redirect-from
