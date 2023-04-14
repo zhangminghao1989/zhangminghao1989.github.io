@@ -16,7 +16,7 @@ redirect_from:
 
 首先是7231-4P   64M（这机器是我最开始天天折腾的机器）的内存命令，此命令使用的是2*32=64M（方案为 两个32M 16位的芯片）激活命令。
 
-```Bash
+```shell
 nvram set sdram_init=0x0008
 nvram set sdram_config=0x0033
 nvram set sdram_ncdl=0x0000
@@ -25,7 +25,7 @@ nvram commit
 
 32M 的命令  2*16=32
 
-```Bash
+```shell
 nvram set sdram_init=0x0008
 nvram set sdram_ncdl=0x0000
 nvram commit
@@ -33,7 +33,7 @@ nvram commit
 
 500GP  DDR 内存 128M 的命令 2*64M=128
 
-```Bash
+```shell
 nvram set sdram_init=0x0011
 nvram set sdram_ncdl=0
 nvram commit
@@ -43,6 +43,7 @@ reboot
 ==================================================================
 从上面的例子，然后我们再对照一下下面的列表
 
+![1](https://user-images.githubusercontent.com/99892/232001435-69a72094-ebf3-47f3-8d3d-9e8237399089.jpg)
 
 
 ================================================================================   
