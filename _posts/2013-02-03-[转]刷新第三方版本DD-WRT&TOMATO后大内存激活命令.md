@@ -44,7 +44,7 @@ reboot
 
 从上面的例子，然后我们再对照一下下面的列表
 
-![1](https://user-images.githubusercontent.com/99892/232001435-69a72094-ebf3-47f3-8d3d-9e8237399089.jpg)
+![](/upload/2013/02/03/1.jpg)
 
 ---
 
