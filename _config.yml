@@ -26,9 +26,6 @@ disqus_url: "https://blog.zhangminghao.com"
 #########################################
 
 # Build settings
-exclude:
-- upload/
-
 markdown: kramdown
 kramdown:
   input: GFM
