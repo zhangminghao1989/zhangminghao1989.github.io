@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-14 17:08:21 +0800
+date: 2013-02-03 17:08:21 +0800
 title: "[转]刷新第三方版本DD-WRT&TOMATO后大内存激活命令"
-slug: "1359826848"
+slug: "1359861169"
 categories: 网络
 tags: DD-WRT,路由器,Tomato,网络
 redirect_from:
