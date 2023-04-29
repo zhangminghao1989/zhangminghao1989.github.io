@@ -26,6 +26,7 @@ Enable SSD TRIM for Mac, Ultimate Solution. TRIM终极方案 我的Mac机型是M
 就因为各种系统和机型的文件不同，同时又要选择性地做替换，于是出现了不同的教程。这里介绍的终极方案，就是先查看你机器上的IOAHCIBlockStorage文件，然后修改教程中的一条命令，然后再执行那些命令。
 
 ![201501291422538674660576](https://user-images.githubusercontent.com/99892/231785005-30c298c9-c153-41ab-8c5e-714371719dd5.png)
+![](/upload/2012/12/27/1.png)
 
 用一个二进制编辑器（比如说“Hex Fiend”）打开位于/System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/的IOAHCIBlockStorage文件，搜索十六进制“52 6F 74 61 74 69 6F 6E 61 6C 00”，也就是“Rotational”字串加上0结尾。整个文件我就只搜到一个匹配的。查看后面是不是9个字符的“APPLE SSD”，如果是的话，就看“APPLE SSD”接下来的字符是什么。图中是“Time To Ready”，记下这个字串的第一个字符，是“T”，他的十六进制是54。
 
