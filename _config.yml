@@ -31,7 +31,7 @@ kramdown:
   input: GFM
 # highlight
 # highlighter: pygments
-# highlighter: rouge
+  highlighter: rouge
 # highlighter: false
 excerpt_separator: <!--more-->
 timezone: Asia/Shanghai
