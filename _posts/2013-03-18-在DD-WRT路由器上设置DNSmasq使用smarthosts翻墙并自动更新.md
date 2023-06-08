@@ -24,15 +24,17 @@ SmartHosts是一个托管在谷歌代码上的项目，您可以轻松利用此�
 
 ```Bash
 conf-file=/tmp/smarthosts.conf
-作用是设置导入SmartHosts的DNSmasq配置文件路径
 ```
+
+作用是设置导入SmartHosts的DNSmasq配置文件路径
 
 2.在管理-命令页面的指令解释器中输入
 
 ```Bash
 touch /tmp/smarthosts.conf
-然后保存为启动指令。目的是在启动过程中自动创建一个空白的配置文件供DNSmasq导入，否则将会产生bug，造成的后果包括不能上网、无法在路由器端使用wget命令
 ```
+
+然后保存为启动指令。目的是在启动过程中自动创建一个空白的配置文件供DNSmasq导入，否则将会产生bug，造成的后果包括不能上网、无法在路由器端使用wget命令
 
 3.在指令解释器中输入
 
