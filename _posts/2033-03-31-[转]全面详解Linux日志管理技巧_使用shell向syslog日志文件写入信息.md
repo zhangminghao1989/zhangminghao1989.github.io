@@ -13,7 +13,7 @@ redirect_from:
 
 ## 1.使用shell向syslog日志文件写入信息
 
-应用程序使用syslog协议发送信息给Linux系统的日志文件(位于`/var/log`目录). Sysklogd提供两个系统工具: 一个是系统日志记录, 另一个是内核信息捕获. 通常大多程序都使用C语言或者syslog应用程序或库来发送syslog消息.
+应用程序使用syslog协议发送信息给Linux系统的日志文件(位于`/var/log`目录). Sysklogd提供两个系统工具: 一个是系统日志记录, 另一个是内核信息捕获. 通常大多程序都使用C语言或者syslog应用程序或库来发送syslog消息.  
 <!--more-->
 下面介绍如何使用shell向syslog日志文件写入信息:
 
@@ -73,10 +73,10 @@ man syslogd
 
 ## 2.输出iptables日志到一个指定的文件
 
-Iptables的man参考页中提到: 我们可以使用`iptables`在linux内核中建立,维护和检查IP包过滤规则表.几个不同的表可能已经创建,每一个表包含了很多内嵌的链, 也可能包含用户自定义的链.  
-Iptables默认把日志信息输出到`/var/log/messages`文件.不过一些情况下你可能需要修改日志输出的位置.下面向大家介绍如何建立一个新的日志文件`/var/log/iptables.log`.通过修改或使用新的日志文件, 你可以创建更好的统计信息或者帮助你分析网络攻击信息.  
+iptables的man参考页中提到: 我们可以使用`iptables`在linux内核中建立,维护和检查IP包过滤规则表.几个不同的表可能已经创建,每一个表包含了很多内嵌的链, 也可能包含用户自定义的链.  
+iptables默认把日志信息输出到`/var/log/messages`文件.不过一些情况下你可能需要修改日志输出的位置.下面向大家介绍如何建立一个新的日志文件`/var/log/iptables.log`.通过修改或使用新的日志文件, 你可以创建更好的统计信息或者帮助你分析网络攻击信息.  
 
-### 1).Iptables默认的日志文件
+### 1).iptables默认的日志文件
 
 例如, 如果你输入下面的命令, 屏幕将显示`/var/log/messages`文件中的iptables日志信息:  
 ```Shell
@@ -121,6 +121,7 @@ iptables -A INPUT -s 64.55.11.2 -j DROP
 命令解释:  
 * --log-level 4 :记录的级别.级别4为警告(warning).  
 * -log-prefix ‘*** TEXT ***’ :这里定义了在日志输出信息前加上TEXT前缀.TEXT信息最长可以是29个字符,这样你就可以在记录文件中方便找到相关的信息.  
+
 现在你可以通过/var/log/iptables.log文件参考iptables的所有信息:  
 ```Shell
 tail -f /var/log/iptables.log
