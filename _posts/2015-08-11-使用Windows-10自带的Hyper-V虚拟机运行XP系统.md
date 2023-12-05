@@ -14,7 +14,11 @@ redirect_from:
 笔者以前一直使用Windows 7系统，Windows 7系统所有的XP Mode使用起来很方便，最近把系统升级到了Windows 10，发现在Windows 10中XP Mode已经取消了。百度后发现从Windows 8开始系统就自带Hyper-V虚拟机了，于是在控制面板中打开此功能准备设置一个虚拟机装XP系统。
 <!--more-->
 
-使用MSDN 原版XP SP3系统镜像安装完系统以后，发现虚拟机中有一些硬件驱动没有装，百度后发现在Windows 10中已经不再提供虚拟机管理工具的镜像了，而是需要使用Windows Update来自动安装驱动。我试了一下发现驱动装不上。只好去找Windows 8里的vmguest.iso镜像文件。最后还是谷歌大神比较吊，找到了此文件。下载地址：[http://pan.baidu.com/s/1bnDGFV5](http://pan.baidu.com/s/1bnDGFV5)
+使用MSDN 原版XP SP3系统镜像安装完系统以后，发现虚拟机中有一些硬件驱动没有装，百度后发现在Windows 10中已经不再提供虚拟机管理工具的镜像了，而是需要使用Windows Update来自动安装驱动。我试了一下发现驱动装不上。只好去找Windows 8里的vmguest.iso镜像文件。最后还是谷歌大神比较吊，找到了此文件。
+
+下载地址：  
+[http://pan.baidu.com/s/1bnDGFV5](http://pan.baidu.com/s/1bnDGFV5)
+[https://github.com/zhangminghao1989/zhangminghao1989.github.io/releases/download/vmguest.iso/vmguest.iso](https://github.com/zhangminghao1989/zhangminghao1989.github.io/releases/download/vmguest.iso/vmguest.iso)
 
 在虚拟机中载入此镜像文件，系统就会自动安装驱动了。重启之后发现有两个设备的驱动仍然没有安装，硬件ID分别是
 
