@@ -22,7 +22,7 @@ SmartHosts是一个托管在谷歌代码上的项目，您可以轻松利用此�
 
 1.打开服务页面，在DNSMasq 附加选项框中输入以下内容并保存
 
-```Bash
+```Shell
 conf-file=/tmp/smarthosts.conf
 ```
 
@@ -30,7 +30,7 @@ conf-file=/tmp/smarthosts.conf
 
 2.在管理-命令页面的指令解释器中输入
 
-```Bash
+```Shell
 touch /tmp/smarthosts.conf
 ```
 
@@ -38,7 +38,7 @@ touch /tmp/smarthosts.conf
 
 3.在指令解释器中输入
 
-```Bash
+```Shell
 #!/bin/sh
 touch /tmp/smarthosts.conf.tmp
 until [ "`cat /tmp/smarthosts.conf.tmp|grep -c address=/`" != 0 ];do
@@ -53,7 +53,7 @@ stopservice dnsmasq && startservice dnsmasq
 
 4.在指令解释器中输入
 
-```Bash
+```Shell
 /tmp/custom.sh
 ```
 
@@ -61,7 +61,7 @@ stopservice dnsmasq && startservice dnsmasq
 
 全部操作完成以后重启路由器，稍等两分钟即可自动完成DNSmasq的配置。可使用以下命令检测是否成功下载到配置文件
 
-```Bash
+```Shell
 cat /tmp/smarthosts.conf
 ```
 
@@ -70,7 +70,7 @@ cat /tmp/smarthosts.conf
 5.配置每天凌晨3点自动更新
 首先必须在管理页面中启用Cron，然后在Cron 附加任务中输入以下内容并保存。
 
-```Bash
+```Shell
 0 3 * * * root /tmp/custom.sh
 ```
 
@@ -80,13 +80,13 @@ cat /tmp/smarthosts.conf
 
 1.打开服务页面，在DNSMasq 附加选项框中输入
 
-```Bash
+```Shell
 addn-hosts=/tmp/smarthosts.hosts
 ```
 
 2.在管理-命令页面的指令解释器中输入
 
-```Bash
+```Shell
 touch /tmp/smarthosts.hosts
 ```
 
@@ -94,7 +94,7 @@ touch /tmp/smarthosts.hosts
 
 3.在指令解释器中输入
 
-```Bash
+```Shell
 touch /tmp/smarthosts.hosts.tmp
 until [ "`cat /tmp/smarthosts.hosts.tmp|grep -c SmartHosts`" != 0 ];do
 sleep 15
@@ -108,7 +108,7 @@ stopservice dnsmasq && startservice dnsmasq
 
 4.在指令解释器中输入
 
-```Bash
+```Shell
 /tmp/custom.sh
 ```
 
@@ -117,6 +117,6 @@ stopservice dnsmasq && startservice dnsmasq
 5.配置每天凌晨3点自动更新
 首先必须在管理页面中启用Cron，然后在Cron 附加任务中输入以下内容并保存。
 
-```Bash
+```Shell
 0 3 * * * root /tmp/custom.sh
 ```

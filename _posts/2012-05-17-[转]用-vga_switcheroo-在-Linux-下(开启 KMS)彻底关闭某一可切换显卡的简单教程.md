@@ -25,7 +25,7 @@ slug: "1337187599"
 
 终端中输入：
 
-```bash
+```Shell
 cat /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -41,7 +41,7 @@ cat /sys/kernel/debug/vgaswitcheroo/switch
 
 首先切换到root用户：
 
-```bash
+```Shell
 su
 ```
 
@@ -49,7 +49,7 @@ su
 
 打开所有的显卡：
 
-```bash
+```Shell
 echo ON > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -57,7 +57,7 @@ echo ON > /sys/kernel/debug/vgaswitcheroo/switch
 
 切换到集成显卡：
 
-```bash
+```Shell
 echo IGD > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -65,7 +65,7 @@ echo IGD > /sys/kernel/debug/vgaswitcheroo/switch
 
 关闭未使用的显卡：
 
-```bash
+```Shell
 echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
