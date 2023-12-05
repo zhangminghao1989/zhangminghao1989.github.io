@@ -35,9 +35,9 @@ Gargoyle 1.9.0基于OpenWRT 15.05，其内置的插件源包括了OpenWRT的官�
 
 打开网页[https://downloads.openwrt.org/barrier_breaker/14.07/](https://downloads.openwrt.org/barrier_breaker/14.07/)
 
-找到自己的设备所在的分支，在其中的/generic/packages/oldpackages/目录中可以找到，
+找到自己的设备所在的分支，在其中的`/generic/packages/oldpackages/`目录中可以找到`pptpd_*.ipk`，
 
-例如https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/generic/packages/oldpackages/pptpd_1.4.0-1_ar71xx.ipk
+例如`https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/generic/packages/oldpackages/pptpd_1.4.0-1_ar71xx.ipk`
 
 在终端中运行以下命令安装（根据你自己的源进行修改）：
 
