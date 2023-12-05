@@ -24,5 +24,5 @@ make install
 ```
 
 如果官方源失效，也可在此下载  
-[本地连接](http://share.zhangminghao.com/Shadowsocks/shadowsocks-libev-master.zip)  
-[百度网盘](http://pan.baidu.com/s/1qWoWyoW)  
+[https://github.com/zhangminghao1989/zhangminghao1989.github.io/releases/download/Shadowsocks/shadowsocks-libev-2.3.3.zip](https://github.com/zhangminghao1989/zhangminghao1989.github.io/releases/download/Shadowsocks/shadowsocks-libev-2.3.3.zip)  
+
