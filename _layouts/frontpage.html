@@ -25,7 +25,7 @@ layout: default
               {{ post.title }}
               </h2>
               <span class="">{{ post.date}}</span>
-              <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+              <p>{{ post.excerpt | strip_html }}</p>
             </a>
           {% endfor %}
         </div>
@@ -40,7 +40,7 @@ layout: default
                     {{ post.title }}
                     </h2>
                     <span class="">{{ post.date}}</span>
-                    <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                    <p>{{ post.excerpt | strip_html }}</p>
                   </a>
                 {% endif %}
               {% endfor %}
