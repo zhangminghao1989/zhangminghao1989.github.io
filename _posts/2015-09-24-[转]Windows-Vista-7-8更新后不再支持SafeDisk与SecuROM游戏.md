@@ -12,6 +12,7 @@ redirect_from:
 {:toc}
 
 Windows 10当前已经不再支持如SafeDisc和某些版本的SecuROM这样的DRM数字版权管理系统，而且微软最近还发布了针对Windows Vista、7、8的升级，专门用于禁用对这类DRM的支持，也就是说使用SafeDisc和SecuROM的游戏没法在新系统上玩了。好在现在已经有方 法打开这种限制。
+<!--more-->
 
 微软之所以做出这样的决定，是基于系统安全方面的考虑，据说会增加安全风险，所以所有采用了SafeDisc DRM和部分SecuROM版本的游戏都是不能在Windows 10系统中运行的。并且这条限制也已经加入到了Windows Vista/7/8的身上。
 
