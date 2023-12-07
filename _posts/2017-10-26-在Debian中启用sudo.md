@@ -52,7 +52,7 @@ root ALL=(ALL:ALL) ALL
 %sudo ALL=(ALL:ALL) ALL
 ```
 
-此处%sudo指sudo用户组，由于此条配置的存在，所以将任意用户直接加入sudo用户组即可使该用户使用sudo命令。
+此处`%sudo`指sudo用户组，由于此条配置的存在，所以将任意用户直接加入sudo用户组即可使该用户使用sudo命令。
 
 允许特定用户使用sudo命令而不需要密码
 
