@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-07 22:22:37 +0800
+date: 2016-08-10 22:22:37 +0800
 title: "安装树莓派GPIO驱动wiringPi"
 slug: "1470838168"
 categories: 软件应用
