@@ -1,0 +1,26 @@
+[Adblock Plus 2.0]
+! Version: 20230222
+! Title: AdList
+! Last modified: 2023-02-22 3:54 UTC +8:00
+! Homepage: http://www.zhangminghao.com/AdBlock.txt
+!
+!-----------------------General advert blocking filters-----------------------!
+baixbbs.org,baixbbs.net,baixbbs123.com##div.ad2
+baixbbs.org,baixbbs.net,baixbbs123.com##div.ad1
+##div.wrap-head-spots
+@@/Upload/vod/
+http://stat.lixian.vip.xunlei.com/lixian/s.gif
+MyZArp.swf
+baidu.com##div[data-url*="jiankang.com"]
+opskins.com##div.footer
+@@||giveaway.su/adsense.js$domain=giveaway.su
+@@||givee.club/adsense.js$domain=givee.club
+theporn.cc,tpdz18.top###top-j
+theporn.cc,tpdz18.top###ad-ft
+t66y.com#@%#//scriptlet("abort-current-inline-script", "$", "do_not_remove")
+t66y.com#@#.sptable_do_not_remove
+t66y.com#@#.tips
+@@||wooolc.com/source/plugin/freeaddon_banadblock/ad/advertisement_ads_cpc_cpm_cpa_guanggao_gg.js$domain=wooolc.com
+sui.com##div.welcome-header-wrap:first-child > header.welcome-header > ul.header-nav.container.clearfix > li.header-nav-item.fdn.f-随手记主站_投资\|https\:\/\/www\.suishou\.com-f:nth-child(4) > a
+baoyu137.cc##div.container:nth-child(2) > li
+steamgifts.com##div.page__outer-wrap > div.page__inner-wrap > div.widget-container > div:last-child > div.widget-container.widget-container--margin-top:last-child
