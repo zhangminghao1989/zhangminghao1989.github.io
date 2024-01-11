@@ -8,7 +8,7 @@ description: 本博客刊载的所有内容，均为个人学习、研究IT技�
 #   Google search results) and in your feed.xml site description.
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://www.zhangminghao.com" # the base hostname & protocol for your site
 twitter_username: "@83174385"
 github_username: zhangminghao1989
 permalink: /:year/:month/:day/:slug/
@@ -37,6 +37,7 @@ excerpt_separator: <!--more-->
 timezone: Asia/Shanghai
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
   
 defaults:
   -
