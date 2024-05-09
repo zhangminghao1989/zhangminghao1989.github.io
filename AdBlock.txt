@@ -24,3 +24,4 @@ t66y.com#@#.tips
 sui.com##div.welcome-header-wrap:first-child > header.welcome-header > ul.header-nav.container.clearfix > li.header-nav-item.fdn.f-随手记主站_投资\|https\:\/\/www\.suishou\.com-f:nth-child(4) > a
 baoyu137.cc##div.container:nth-child(2) > li
 steamgifts.com##div.page__outer-wrap > div.page__inner-wrap > div.widget-container > div:last-child > div.widget-container.widget-container--margin-top:last-child
+player.bilibili.com$domain=bbs.d.163.com
