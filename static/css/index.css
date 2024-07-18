@@ -81,7 +81,7 @@ nav{
 	display: block;
 	padding:8px 30px 10px 30px; 
 	border-bottom:1px solid #ddd;
-
+	word-break: break-word;
 	transition:0.4s ease; 
 	-webkit-transition:0.4s ease;
 	-moz-transition:0.4s ease;
