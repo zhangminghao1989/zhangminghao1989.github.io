@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20230222
+! Version: 20250222
 ! Title: AdList
-! Last modified: 2023-02-22 3:54 UTC +8:00
+! Last modified: 2025-02-22 3:54 UTC +8:00
 ! Homepage: http://www.zhangminghao.com/AdBlock.txt
 !
 !-----------------------General advert blocking filters-----------------------!
@@ -24,4 +24,4 @@ t66y.com#@#.tips
 sui.com##div.welcome-header-wrap:first-child > header.welcome-header > ul.header-nav.container.clearfix > li.header-nav-item.fdn.f-随手记主站_投资\|https\:\/\/www\.suishou\.com-f:nth-child(4) > a
 baoyu137.cc##div.container:nth-child(2) > li
 steamgifts.com##div.page__outer-wrap > div.page__inner-wrap > div.widget-container > div:last-child > div.widget-container.widget-container--margin-top:last-child
-player.bilibili.com$domain=bbs.d.163.com
+||player.bilibili.com^$domain=bbs.d.163.com
