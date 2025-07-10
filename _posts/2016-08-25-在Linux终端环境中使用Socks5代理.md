@@ -57,7 +57,7 @@ proxychains4  wget www.google.com
 
 1.使用Privoxy将Socks5代理转换为http代理
 
-详细步骤参考[使用树莓派建立公共Http代理服务器](https://www.zhangminghao.com/post/47.html)
+详细步骤参考[使用树莓派建立公共Http代理服务器](https://www.zhangminghao.com/2016/08/24/1472047768/)
 
 2.输入以下命令
 
