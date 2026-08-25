@@ -1,8 +1,33 @@
 <footer class="">
   <div class="container">
     <div class="row">
-      <script defer src="/static/js/index.min.js" data-base-url="https://analytics.zhangminghao.com"></script>
-      网站数据概况 - 当前页面访问量 <span id="page_pv" style="color: #eee;"></span> | 当前页面访问人数 <span id="page_uv" style="color: #eee;"></span>
+      网站数据概况 - 当前页面访问量 <span id="page-view-count">加载中...</span> | 网站总访问量 <span id="all-page-view-count">加载中...</span>
+		<script>
+		  const currentPath = window.location.pathname;
+		  const workerBaseUrl = 'https://analytics.zhangminghao.com'; 
+		  fetch(workerBaseUrl + currentPath, { 
+		    method: 'POST' 
+		  })
+		  .then(response => response.json())
+		  .then(data => {
+		    document.getElementById('page-view-count').textContent = data.count;
+		  })
+		  .catch(error => {
+		    console.error('获取阅读量失败:', error);
+		  });
+		</script>
+		<script>
+		  fetch('https://analytics.zhangminghao.com/all-page', { 
+		    method: 'POST' 
+		  })
+		  .then(response => response.json())
+		  .then(data => {
+		    document.getElementById('all-page-view-count').textContent = data.count;
+		  })
+		  .catch(error => {
+		    console.error('获取阅读量失败:', error);
+		  });
+		</script>
     </div>
   </div>
   <div class="container">
