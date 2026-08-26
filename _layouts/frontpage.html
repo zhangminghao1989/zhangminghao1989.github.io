@@ -50,9 +50,8 @@ layout: default
         <!-- </div> -->
         <!-- <div class="posts-in-tags"> -->
         {% for tags in site.tags %}
-          <div post-cate="{{tags | first}}">
-            {% for posts in tags  %}
-              {% for post in posts %}
+          <div post-cate="{{tags[0] }}">
+              {% for post in tags[1] %}
                 {% if post.url %}
                   <a href="{{ post.url }}" class="post-list-item">
                     <h2>
@@ -63,7 +62,6 @@ layout: default
                   </a>
                 {% endif %}
               {% endfor %}
-            {% endfor %}
           </div>
         {% endfor %}
         <!-- </div> -->
