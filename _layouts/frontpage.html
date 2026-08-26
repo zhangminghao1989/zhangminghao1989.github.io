@@ -15,7 +15,7 @@ layout: default
   <div class="col-sm-9">
     <div class="post-area ">
 	  <div class="post-list-header">
-	  Posts
+	  文章
 	  </div>
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
@@ -63,6 +63,22 @@ layout: default
       {% for category in site.categories %}
         <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
           {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        标签
+      </div>
+      
+      <a href="javascript:;" class="categories-list-item" cate="All">
+        All<span class="my-badge"> {{site.posts | size}}</span>
+      </a>
+      {% for tags in site.tags %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+          {{ tags | first }} <span class="my-badge">{{ tags | last | size }}</span>
         </a>
       {% endfor %}
     </div>
