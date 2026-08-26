@@ -49,9 +49,9 @@ layout: default
         {% endfor %}
         <!-- </div> -->
         <!-- <div class="posts-in-tags"> -->
-        {% for tags in site.tags %}
-          <div post-cate="{{tags[0] }}">
-              {% for post in tags[1] %}
+        {% for tag in site.tags %}
+          <div post-cate="{{tag[0] }}">
+              {% for post in tag[1] %}
                 {% if post.url %}
                   <a href="{{ post.url }}" class="post-list-item">
                     <h2>
