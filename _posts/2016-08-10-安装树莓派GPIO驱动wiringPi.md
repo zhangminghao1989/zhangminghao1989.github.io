@@ -4,7 +4,7 @@ date: 2016-08-10 22:22:37 +0800
 title: "安装树莓派GPIO驱动wiringPi"
 slug: "1470838168"
 categories: 软件应用
-tags: 树莓派, Linux  
+tags: [树莓派, Linux]
 redirect_from:
   - /post/45.html
 ---

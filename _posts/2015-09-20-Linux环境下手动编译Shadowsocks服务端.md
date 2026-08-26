@@ -4,7 +4,7 @@ date: 2015-09-20 22:26:18 +0800
 title: "Linux环境下手动编译Shadowsocks服务端"
 slug: "1442755264"
 categories: 软件应用
-tags: 科学上网, 网络, 软件应用, Linux
+tags: [科学上网, 网络, 软件应用, Linux]
 redirect_from:
   - /post/37.html
 ---

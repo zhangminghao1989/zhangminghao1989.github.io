@@ -4,7 +4,7 @@ date: 2016-03-11 23:34:05 +0800
 title: "在石像鬼（Gargoyle）OpenWRT路由器上运行PPTP VPN服务器"
 slug: "1457702464"
 categories: 网络
-tags: 路由器, 网络, OpenWRT
+tags: [路由器, 网络, OpenWRT]
 redirect_from:
   - /post/40.html
 ---

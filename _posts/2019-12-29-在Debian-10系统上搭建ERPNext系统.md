@@ -4,7 +4,7 @@ date: 2019-12-29 23:25:12 +0800
 title: "在Debian 10系统上搭建ERPNext系统"
 slug: "1577628568"
 categories: 软件应用
-tags: Web, 软件应用, Linux, ERP
+tags: [Web, 软件应用, Linux, ERP]
 redirect_from:
   - /post/55.html
 ---

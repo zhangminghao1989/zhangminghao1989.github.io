@@ -4,7 +4,7 @@ date: 2015-08-11 21:39:25 +0800
 title: "使用Windows 10自带的Hyper-V虚拟机运行XP系统"
 slug: "1439299264"
 categories: 软件应用
-tags: 虚拟机, Windows
+tags: [虚拟机, Windows]
 redirect_from:
   - /post/34.html
 ---

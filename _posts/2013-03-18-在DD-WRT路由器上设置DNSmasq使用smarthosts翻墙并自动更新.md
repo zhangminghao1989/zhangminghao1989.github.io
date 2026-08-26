@@ -4,7 +4,7 @@ date: 2013-03-18 18:19:01 +0800
 title: "在DD-WRT路由器上设置DNSmasq使用smarthosts翻墙并自动更新"
 slug: "1363600188"
 categories: 网络
-tags: DD-WRT, 科学上网, 路由器
+tags: [DD-WRT, 科学上网, 路由器]
 redirect_from:
   - /post/23.html
 ---

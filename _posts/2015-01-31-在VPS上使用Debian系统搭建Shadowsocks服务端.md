@@ -4,7 +4,7 @@ date: 2015-01-31 21:21:09 +0800
 title: "在VPS上使用Debian系统搭建Shadowsocks服务端"
 slug: "1422709264"
 categories: 软件应用
-tags: Linux, 网络, 科学上网, 软件应用
+tags: [Linux, 网络, 科学上网, 软件应用]
 redirect_from:
   - /post/31.html
 ---

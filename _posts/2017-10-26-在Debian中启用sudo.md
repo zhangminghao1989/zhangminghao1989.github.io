@@ -4,7 +4,7 @@ date: 2017-10-26 23:17:59 +0800
 title: "在Debian中启用sudo"
 slug: "1509026968"
 categories: Linux
-tags: Linux, 软件应用
+tags: [Linux, 软件应用]
 redirect_from:
   - /post/52.html
 ---

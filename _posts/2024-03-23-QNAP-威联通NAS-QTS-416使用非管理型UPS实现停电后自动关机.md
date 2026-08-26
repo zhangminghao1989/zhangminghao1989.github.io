@@ -4,7 +4,7 @@ date: 2024-03-23 17:41:13 +0800
 title: "QNAP 威联通NAS QTS-416使用非管理型UPS实现停电后自动关机"
 slug: "1711186873"
 categories: 软件应用
-tags: NAS Linux
+tags: [NAS, Linux]
 ---
 * content
 {:toc}
