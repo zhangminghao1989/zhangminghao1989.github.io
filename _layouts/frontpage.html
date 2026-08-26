@@ -48,6 +48,25 @@ layout: default
           </div>
         {% endfor %}
         <!-- </div> -->
+        <!-- <div class="posts-in-tags"> -->
+        {% for tags in site.tags %}
+          <div post-cate="{{tags | first}}">
+            {% for posts in tags  %}
+              {% for post in posts %}
+                {% if post.url %}
+                  <a href="{{ post.url }}" class="post-list-item">
+                    <h2>
+                    {{ post.title }}
+                    </h2>
+                    <span class="">{{ post.date}}</span>
+                    <p>{{ post.excerpt | strip_html }}</p>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+        <!-- </div> -->
       </div>
     </div>
   </div>
