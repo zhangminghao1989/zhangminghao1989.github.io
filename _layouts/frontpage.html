@@ -94,7 +94,7 @@ layout: default
         All<span class="my-badge"> {{site.posts | size}}</span>
       </a>
       {% for tag in site.tags %}
-        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+        <a href="javascript:;" class="categories-list-item" cate="{{ tag | first }}">
           {{ tag | first }} <span class="my-badge">{{ tag | last | size }}</span>
         </a>
       {% endfor %}
